@@ -1,7 +1,7 @@
 package after.simplefactory;
 
 /**
- * By encapsulating the pizza creating in one class, we now have only one place to make modifications when the
+ * By encapsulating the pizza creation in one class, we now have only one place to make modifications when the
  * implementation changes
  */
 public class SimplePizzaFactory {

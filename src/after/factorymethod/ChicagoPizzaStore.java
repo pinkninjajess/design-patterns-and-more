@@ -5,7 +5,7 @@ import after.factorymethod.pizzatypes.*;
 /**
  * The ConcreteCreator
  * implements the factoryMethod() which is the method that actually produces products
- * - concretecreator classes have the knowledge of how create the products
+ * - concretecreator classes have the knowledge of how to create the products
  */
 public class ChicagoPizzaStore extends PizzaStore {
 

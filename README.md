@@ -1,7 +1,7 @@
 # Learning Design Patterns
 
 ## Credits
-- Most examples (code) and text are taken from the Head First Design Patterns book
+- Most examples (code) and text are from the amazing [Head First Design Patterns](https://www.amazon.ca/Head-First-Design-Patterns-Brain-Friendly/dp/0596007124) book
 
 ## Online resources
 

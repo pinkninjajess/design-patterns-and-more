@@ -14,9 +14,6 @@ public abstract class Pizza {
     String sauce;
     ArrayList toppings = new ArrayList();
 
-    public Pizza() {
-    }
-
     public String getName() {
         return this.name;
     }
