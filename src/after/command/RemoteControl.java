@@ -1,7 +1,19 @@
 package after.command;
 
+import after.command.command.Command;
+import after.command.command.NoCommand;
+
+/**
+ * Invoker
+ * makes a request of a Command object by calling its execute() method, which invokes those actions on the receiver
+ * (each slot of the remote is considered to be an invoker)
+ */
 public class RemoteControl {
 
+    /**
+     * Only relies on an Object that implements the Command interface,
+     * which decouples the RemoteControl Slot (the Invoker) from the receiver of the request (e.g, GeorgeForemanGrill)
+     */
     Command[] onCommands;
     Command[] offCommands;
 
@@ -10,7 +22,13 @@ public class RemoteControl {
         offCommands = new Command[7];
 
         for (int i=0; i < 7; i++) {
-            onCommands[i] = () -> {};
+
+            onCommands[i] = new NoCommand();
+
+            /**
+             * Rather than use a NoCommand object, we can use a lambda expression that does nothing
+             * (Just like the execute() method of the NoCommand object did nothing)
+             */
             offCommands[i] = () -> {};
         }
     }

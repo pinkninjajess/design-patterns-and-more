@@ -1,4 +1,4 @@
-package after.command;
+package after.command.receiver;
 
 public class GarageDoor {
     String location;
