@@ -19,8 +19,13 @@ public class TurkeyAdapter implements Duck {
         this.turkey = turkey;
     }
 
+
     @Override
     public void quack() {
+        /**
+         * 2) The adapter translates the request into one or more calls on the adaptee, using the adaptee interface
+         *    (In this case, the adaptee interface is Turkey)
+         */
         turkey.gobble();
     }
 
