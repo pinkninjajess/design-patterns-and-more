@@ -26,6 +26,11 @@
 #### Strategy Pattern
 - Good [article](https://www.freecodecamp.org/news/the-strategy-pattern-explained-using-java-bc30542204e0/) inspired by Head First Design Patterns
 
+#### Template Method Pattern
+- [Template Method explained by SourceMaking](https://sourcemaking.com/design_patterns/template_method)
+    - mentions that "Factory Method is a specialization of Template Method"
+- Blog post: ["Patterns I Hate #2: Template Method"](https://puredanger.github.io/tech.puredanger.com/2007/07/03/pattern-hate-template/)
+ 
 #### Other
 - [Examples of patterns in Java](https://stackoverflow.com/questions/1673841/examples-of-gof-design-patterns-in-javas-core-libraries/2707195#2707195)
 - [Great examples of how to use Lombok](https://bytes.grubhub.com/lombok-makes-java-cool-again-171102bdcc52)
