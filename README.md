@@ -5,7 +5,7 @@
 
 ## Online resources
 
-#### Adapter Patter
+#### Adapter Pattern
 - [Adapter Pattern explained in depth](https://stackify.com/design-patterns-explained-adapter-pattern-with-code-examples/)
 - [Facade Pattern - short and sweet](https://sourcemaking.com/design_patterns/facade)
 
@@ -20,7 +20,7 @@
 #### Simple Factory (idiom)
 - [Simple Factory explained with Java](https://medium.com/nestedif/java-simple-factory-pattern-9c2538dd0265)
 
-#### Factory Method: 
+#### Factory Method
 - [Factory Method explained with good visuals](https://refactoring.guru/design-patterns/factory-method)
 
 #### Strategy Pattern
