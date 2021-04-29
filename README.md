@@ -35,3 +35,7 @@
 - [Examples of patterns in Java](https://stackoverflow.com/questions/1673841/examples-of-gof-design-patterns-in-javas-core-libraries/2707195#2707195)
 - [Great examples of how to use Lombok](https://bytes.grubhub.com/lombok-makes-java-cool-again-171102bdcc52)
 - [Lombok documentation](https://projectlombok.org/)
+
+#### Big O Notation Sources
+- [Big O Notations by Derek Banas](https://www.youtube.com/watch?v=V6mKVRU1evU)
+- [Good explanation on Quick Sort](https://towardsdatascience.com/basic-algorithms-quicksort-b549ea9ef27)
