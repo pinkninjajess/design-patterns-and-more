@@ -8,6 +8,7 @@ public class FunWithArrays {
 
     /**
      * Arrays
+     * - a container object that holds a fixed number of values of a single type (From Oracle)
      * - O(1) time to look up by index (much speed!)
      * - O(1) time to append to the end of the list
      * - O(n) time to insert or delete
@@ -16,6 +17,8 @@ public class FunWithArrays {
      * - Handy if you have a fixed number of elements
      */
     String[] careBearNamesArray = new String[5]; // hopefully you won't need to update this :(
+
+
     /**
      * Dynamic Array aka ArrayList (in Java)
      * - dynamic because it doesn't have a fixed size
@@ -23,9 +26,9 @@ public class FunWithArrays {
      * - deletions take O(n) because of the need to scoot over other elements
      * - appending usually is quick at O(1) - worst case O(n)
      * - if the array is full, then appending to it (usually) doubles the array size
-     * (each item needs to be copied over, so that is O(n)
+     * (each item needs to be copied over, so that is O(n))
      * - The Java implementation lists the 'add' operation at O(n)
-     * - Get and Set are constant time O(1) in the Java implementation
+     * - Get and Set are constant time O(1) in the Java implementation   ('Set' differs from Dynamic Array definition from Interview Cake, which lists O(n) for insertion - which makes sense if it's full)
      */
     List<String> careBearNamesArrayList;
 
@@ -64,8 +67,8 @@ public class FunWithArrays {
         careBears[3] = "Funshine Bear";
 
 
-        //  Arrays.sort uses Quick Sort when dealing with primitive values
-        //  and Merge Sort for references values
+        //  Arrays.sort uses Quick Sort when dealing with primitive values - O(N * log N) (fast because it can be done in place)
+        //  and Merge Sort for references values - O(N * log N)
         Arrays.sort(careBears);
 
         return careBears;
@@ -85,8 +88,6 @@ public class FunWithArrays {
         // write over an existing item O(1) time in the Java ArrayList implementation
         careBears.set(0, "Friend Bear");
 
-        //  Arrays.sort uses Quick Sort when dealing with primitive values
-        //  and Merge Sort for references values
         careBears.sort(String::compareTo);
 
         return careBears;

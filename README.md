@@ -39,3 +39,9 @@
 #### Big O Notation Sources
 - [Big O Notations by Derek Banas](https://www.youtube.com/watch?v=V6mKVRU1evU)
 - [Good explanation on Quick Sort](https://towardsdatascience.com/basic-algorithms-quicksort-b549ea9ef27)
+
+#### Arrays and LinkedList Sources
+- [Time complexity of contains(Object o) in an ArrayList of Objects](https://stackoverflow.com/questions/5771740/time-complexity-of-containsobject-o-in-an-arraylist-of-objects)
+- [Definition of an array](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
+- [Linked Lists Lecture](https://www.andrew.cmu.edu/course/15-121/lectures/Linked%20Lists/linked%20lists.html)
+- [LinkedList Picture](https://medium.com/@mckenziefiege/arrays-linked-lists-and-big-o-notation-486727b6259b)
