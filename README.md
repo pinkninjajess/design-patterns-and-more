@@ -1,4 +1,4 @@
-# Learning Design Patterns
+# Learning Design Patterns, Data Structures, and Algorithms
 
 ## Credits
 - Most examples (code) and text are from the amazing [Head First Design Patterns](https://www.amazon.ca/Head-First-Design-Patterns-Brain-Friendly/dp/0596007124) book
@@ -45,3 +45,8 @@
 - [Definition of an array](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
 - [Linked Lists Lecture](https://www.andrew.cmu.edu/course/15-121/lectures/Linked%20Lists/linked%20lists.html)
 - [LinkedList Picture](https://medium.com/@mckenziefiege/arrays-linked-lists-and-big-o-notation-486727b6259b)
+
+#### Trees
+- [Three data structures: queue,stack, and deque](https://www.cs.cornell.edu/courses/JavaAndDS/files/queueStack.pdf)
+- [Difference between BFS and DFS](https://www.tutorialspoint.com/difference-between-bfs-and-dfs)
+- [StackOverflow Question on BFS and DFS](https://stackoverflow.com/questions/3332947/when-is-it-practical-to-use-depth-first-search-dfs-vs-breadth-first-search-bf)
