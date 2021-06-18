@@ -35,6 +35,10 @@
 - [Examples of patterns in Java](https://stackoverflow.com/questions/1673841/examples-of-gof-design-patterns-in-javas-core-libraries/2707195#2707195)
 - [Great examples of how to use Lombok](https://bytes.grubhub.com/lombok-makes-java-cool-again-171102bdcc52)
 - [Lombok documentation](https://projectlombok.org/)
+- [Mutable vs Immutable Objects](https://www.interviewcake.com/concept/java/mutable)
+- [Benefits of Immutable Objects - StackOverflow](https://stackoverflow.com/questions/5652652/java-advantages-of-immutable-objects-in-examples)
+- [Mutability in Java](https://www.leadingagile.com/2018/03/immutability-in-java/)
+- [* Mutable and Immutable Objects](https://javaranch.com/journal/2003/04/immutable.htm)
 
 #### Big O Notation Sources
 - [Big O Notations by Derek Banas](https://www.youtube.com/watch?v=V6mKVRU1evU)
