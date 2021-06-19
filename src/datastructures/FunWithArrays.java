@@ -25,6 +25,7 @@ public class FunWithArrays {
      * - lookups are fast O(1)
      * - deletions take O(n) because of the need to scoot over other elements
      * - appending usually is quick at O(1) - worst case O(n)
+     * - inserting (in between existing elements) takes O(n)
      * - if the array is full, then appending to it (usually) doubles the array size
      * (each item needs to be copied over, so that is O(n))
      * - The Java implementation lists the 'add' operation at O(n)
